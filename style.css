@@ -1,0 +1,87 @@
+/* Header */
+
+header{
+    background-color:  #2f2f2f;
+}
+.outerheadercontainer{
+    width: 1100px;
+    background-color: #263238;
+    margin-left: 115px;
+    margin-right: 115px;
+    text-align: center;
+    color: white;
+}
+
+input{
+    width: 200px;
+    padding: 10px;
+}
+
+/* button{
+    padding: 10px;
+} */
+
+label{
+    font-size: 14px;
+}
+
+
+
+/* Main body */
+
+.mainparent{
+    width: 1100px;
+    height: 3000px;
+    margin-left: 115px;
+    margin-right: 115px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+
+
+/* firstdiv/Outerdiv */
+
+.outerdiv{
+    width: 200px;
+    height: 390px;
+    margin: 20px;
+    /* overflow: hidden; */
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: wheat;
+    box-shadow: 0px 0px 16px 8px rgba(128,66,85,0.5);
+-webkit-box-shadow: 0px 0px 16px 8px rgba(128,66,85,0.5);
+-moz-box-shadow: 0px 0px 16px 8px rgba(128,66,85,0.5);
+}
+
+
+
+/* pokeimg */
+
+.pokeimg{
+    width: 130px;
+    height: 140px;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+ul{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
